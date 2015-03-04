@@ -26,6 +26,25 @@ A [good commit message][1] looks like this:
 
 [1]: https://github.com/torvalds/subsurface/blob/master/README
 
+Pull Requests
+-------------
+
+The preferred way to submit changes to a project is by opening GitHub pull
+requests.
+
+Pull requests for libraries should include this template of at minimum
+the following information:
+
+~~~
+Q             | A
+--------------|-------
+Bug fix?      | yes/no
+New feature?  | yes/no
+BC breaks?    | yes/no
+Deprecations? | yes/no
+Fixed tickets | #1234
+~~~
+
 Release Branching Strategy
 --------------------------
 
