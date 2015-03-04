@@ -158,7 +158,7 @@ Afterwards we'll have a commit tree like the following:
 
 QA Has now approved our changes, and our release is being published. We'll mark
 the commit that was released with a tag.
-We'll do that by making a [signed tag][1] with the format `vX.Y.Z` and pushing
+We'll do that by making a [signed tag][2] with the format `vX.Y.Z` and pushing
 it.
 
     git tag -s v1.6.9
@@ -246,7 +246,7 @@ and close our release branch again:
                  \
                   * (Tag: v1.6.9)
 
-[1]: https://ariejan.net/2014/06/04/gpg-sign-your-git-commits/
+[2]: https://ariejan.net/2014/06/04/gpg-sign-your-git-commits/
 
 ### Release Tags
 
